@@ -6,7 +6,7 @@ int main(){
 
     printf("Enter the number: \n");
     scanf("%ld", & num);
-
+ 
     while(num>0){
         digit= num%10 ;
         switch (digit)
